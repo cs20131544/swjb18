@@ -3,7 +3,7 @@
   padding: 0;/*안쪽 여백 : 0*/
   box-sizing: border-box; /*테두리두께 무시*/
 
-  
+
 }
 a{
   text-decoration: none; /*밑줄 제거*/
@@ -112,4 +112,60 @@ li{
   color: black;
 
 
+}
+
+.about{
+  width: 1200px;
+  height: 800px;
+
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.about h2{
+  font-size: 30px;
+  color: #ff6a6a;
+
+}
+.about h1{
+  font-size: 50px;
+}
+.about .contents{
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+
+}
+.about .left{
+  width: 400px;
+  height: 500px;
+}
+.about .left img{
+  width: 400px;
+  height: 500px;
+}
+.about .right{
+  width: 800px;
+  height: 500px;
+  padding-left: 10px;
+
+}
+.about .right h3{
+  color: #ff6a6a;
+  font-size: 30px;
+}
+.about .right li{
+  font-size: 22px;
+  margin-top: 10px;
+}
+.fa-brands{
+  font-size: 50px;
+  margin-right: 6px;
+}
+.fa-youtube{
+  color: red;
+ 
+}
+.fa-facebook{
+  color: #3b5998;
 }
